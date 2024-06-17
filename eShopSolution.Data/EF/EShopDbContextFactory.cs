@@ -5,7 +5,7 @@ using System.IO;
 
 namespace eShopSolution.Data.EF
 {
-    internal class EShopDbContextFactory : IDesignTimeDbContextFactory<EShopDbContext>
+    public class EShopDbContextFactory : IDesignTimeDbContextFactory<EShopDbContext>
     {
         public EShopDbContext CreateDbContext(string[] args)
         {
